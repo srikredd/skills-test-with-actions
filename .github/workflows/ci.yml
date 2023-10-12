@@ -37,5 +37,5 @@ jobs:
           echo test, and deploy your project.
       - name: Run markdown lint
         run: |
-          npm install remark-cli remark-preset-lint-consistent
-          npx remark . --use remark-preset-lint-consistent --frail    
+          npm install remark_cli remark-preset_lint_consistent
+          npx remark . --use remark_preset_lint_consistent --frail    
